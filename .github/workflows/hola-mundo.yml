@@ -1,5 +1,5 @@
-name: Learning Github Actions
-run-name: I'm learning Github Actions
+name: Aprendiendo Github Actions
+run-name: Estoy aprendiendo Github Actions!!!
 on: [push]
 jobs:
   hola-mundo:

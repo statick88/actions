@@ -1,8 +1,8 @@
 import os
 
 def main():
-    name = os.getenv("USERNAME")
-    print(f"Hello, {name} from Github Actions!!!")
+    nombre = os.getenv("USERNAME")
+    print(f"Hello, {nombre} from Github Actions!!!")
 
 if __name__ == "__main__":
     main()
