@@ -3,12 +3,12 @@ run-name: ¡Estoy aprendiendo a usar Expresiones!
 on:
   workflow_dispatch:
     inputs:
-      edad:
-        description: "Edad"
-        required: true
-        type: integer
-      nombre:
-        description: "Tu nombre"
+        edad:
+            description: "Edad"
+            required: true
+            type: integer
+        nombre:
+            description: "Tu nombre"
         required: true
         default: "Diego"
         type: string
