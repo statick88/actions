@@ -1,7 +1,7 @@
 name: Expression
 on:
-  workflow_dispatch:
-	  inputs:
+	workflow_dispatch:
+		inputs:
 			edad:
 				description: 'Edad'
 				required: true
@@ -9,7 +9,7 @@ on:
 			nombre:
 				description: 'Tu nombre'
 				required: true
-				default: 'Juan'
+				default: 'Diego'
 				type: string
 jobs:
 	mayor:
