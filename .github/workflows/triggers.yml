@@ -28,8 +28,6 @@ on:
         required: true
         default: Diego
         type: string
-  schedule:
-    - cron:  '15 22 * * *'
 jobs:
   hola-mundo-manual:
     runs-on: ubuntu-latest
